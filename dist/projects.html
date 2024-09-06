@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Noto+Sans&family=PT+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <script src="./app.js" defer></script>
+    <title>Proyectos</title>
+  </head>
+  <body class="bg-sky-50 text-stone-900 dark:bg-primary dark:text-cyan-50 font-roboto">
+    <header>
+      <nav
+        class="flex justify-between py-10 m-auto px-10 text-lg font-medium tracking-widest md:items-center"
+      >
+        <a href="index.html"><img src="./img/image_2.png" alt="" width="50" /></a>
+
+        <div
+          id="menu"
+          class="bg-white dark:bg-slate-800 p-7 h-[380px] w-[320px] md:flex flex-col items-start justify-around rounded-lg text-dark dark:text-white md:flex-row md:w-full md:py-0 md:h-[50px] md:bg-inherit md:dark:bg-primary hidden"
+        >
+          <ul
+            class="flex h-5/6 flex-col justify-around md:flex-row md:justify-center w-full"
+          >
+            <li class="md:px-5 hover:text-sky-600 font-bold">
+              <a href="index.html#about">Quien soy</a>
+            </li>
+            <li class="md:px-5 hover:text-sky-600 font-bold">
+              <a href="index.html#experience">Experiencia</a>
+            </li>
+            <li class="md:px-5 hover:text-sky-600 font-bold">
+              <a href="projects.html">Proyectos</a>
+            </li>
+            <li class="md:px-5 hover:text-sky-600 font-bold">
+              <a href="index.html#contact">Contacto</a>
+            </li>
+          </ul>
+          <button id="darkButton">
+            <i class="bi bi-moon-stars-fill text-sky-600 text-2xl"></i>
+          </button>
+        </div>
+
+        <button id="menu-button" class="absolute top-10 right-12 md:hidden">
+          <span
+            class="br-1 block bg-black dark:bg-white my-2 rounded-md h-[3px] w-[28px]"
+          ></span>
+          <span
+            class="br-2 block bg-black dark:bg-white my-2 rounded-md h-[3px] w-[28px]"
+          ></span>
+          <span
+            class="br-3 block bg-black dark:bg-white my-2 rounded-md h-[3px] w-[28px]"
+          ></span>
+        </button>
+      </nav>
+    </header>
+    <main>
+     
+        <h3
+        class="text-3xl text-slate-700 dark:text-white my-5 px-12 font-bold
+        tracking-widest md:text-center" >
+            Mis Ultimos Proyectos    
+      </h3>
+      <section
+        class="my-10 flex flex-col items-center justify-center   m-auto lg:flex-row"
+      >
+        <!-- PRIMER PROYECTO  -->
+        <div class="border-1 rounded-lg bg-white dark:bg-slate-800 m-5">
+          <div class="m-2">
+            <img
+              src="./img/room.jpg"
+              alt="" width="400" height="160"
+              class="opacity-80 hover:opacity-100"
+            />
+            <h4 class="font-bold my-2">Chat Room - Proyectos Estudios</h4>
+            <article class="flex justify-between">
+              <div class="flex flex-nowrap items-center">
+                <span class="bg-slate-200 rounded-lg px-2 mr-2 text-slate-700"
+                  >Ruby on Rails</span
+                >
+                <span class="bg-slate-200 rounded-lg px-2 mr-2 text-slate-700"
+                  >Tailwind CSS</span
+                >
+                <span class="bg-slate-200 rounded-lg px-2 mr-2 text-slate-700"
+                  >Hotwire</span
+                >
+              </div>
+              <div
+                class="text-xl text-slate-600 dark:text-slate-200 pr-2 flex flex-nowrap"
+              >
+                <a href="https://github.com/elvi25616/chat_room"><i class="bi bi-github px-2"></i></a>
+                <a href=""><i class="bi bi-eye px-2"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- SEGUNDO PROYECTO  -->
+        <div class="border-1 rounded-lg bg-white dark:bg-slate-800 m-2">
+          <div class="m-2">
+            <img 
+              src="./img/inventario.jpg"
+              alt="" width="400" height="50"
+              class="opacity-80 hover:opacity-100"
+            />
+            <h4 class="font-bold my-2">App Inventario- Proyectos de Estudios</h4>
+            <article class="flex justify-between">
+              <div class="flex flex-nowrap items-center">
+                <span class="bg-slate-200 rounded-lg px-1 mr-2 text-slate-700"
+                  >Ruby on Rails</span
+                >
+                <span class="bg-slate-200 rounded-lg px-2 mr-2 text-slate-700"
+                  >Bootstrap</span
+                >
+                <span class="bg-slate-200 rounded-lg px-2 mr-2 text-slate-700"
+                  >SB Admin 2</span
+                >
+              </div>
+              <div
+                class="text-xl text-slate-600 dark:text-slate-200 pr-2 flex flex-nowrap"
+              >
+                <a href="https://github.com/elvi25616/inventario"><i class="bi bi-github px-2"></i></a>
+                <a href=""><i class="bi bi-eye px-2"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <!-- TERCER PROYECTO  -->
+        <div class="border-1 rounded-lg bg-white dark:bg-slate-800 m-5">
+          <div class="m-2">
+            <img 
+            src="./img/books.jpg" 
+            alt=""  width="400" height="160"
+            class="opacity-80 hover:opacity-100" 
+            />
+            <h4 class="font-bold my-2">Venta de Libros - Proyecto De Estudios</h4>
+            <article class="flex justify-between">
+              <div class="flex flex-nowrap items-center">
+                <span class="bg-slate-200 rounded-lg px-2 mr-2 text-slate-700">
+                   Ruby on Rails</span>
+                <span class="bg-slate-200 rounded-lg px-2 mr-2 text-slate-700">
+                  Tailwindcss</span>
+                <span class="bg-slate-200 rounded-lg px-2 mr-2 text-slate-700">
+                   Hotwire</span>
+              </div>
+              <div  class="text-xl text-slate-600 dark:text-slate-200 pr-2 flex flex-nowrap">
+                <a href="https://github.com/elvi25616/book_sales"><i class="bi bi-github px-2"></i></a>
+                <a href=""><i class="bi bi-eye px-2"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      
+      <footer class="text-center mt-12 mb-5">
+        <p class="hover:text-sky-500">
+          Desarrollado | Elvi Pineda.
+        </p>
+        <div class="my-2">
+          <a href="https://github.com/elvi25616"><i class="bi bi-github hover:text-sky-500 px-2"></i></a>
+          <a href=" https://www.linkedin.com/in/elvia-pineda-developer2022"
+            ><i class="bi bi-linkedin hover:text-sky-500 px-2"></i
+          ></a>
+          <a href=""><i class="bi bi-twitter hover:text-sky-500 px-2"></i></a>
+          <a href="">
+            <i class="bi bi-instagram hover:text-sky-500 px-2"></i
+          ></a>
+         
+          
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
